@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valgreen Tours</title>
+    <link rel="shortcut icon" href="./images/faviconv/ult2.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+
+
+    <header class="hero">
+        <nav class="nav container">
+            <div class="nav__logo">
+              <h2 clas="nav__title">Valgreen Tours.</h2>
+               </div>
+               <ul class="nav__link nav__link--menu">
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Inicio</a> 
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Tours</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Transfers</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Paquetes</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Personal capacitado</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Contactenos</a>
+                </li>
+                <img src="./images/close.svg" alt="" class="nav__close">
+               </ul>
+
+            <div class="nav__menu"></div>
+            <img src="./images/menu.svg" alt="" class="nav__img">
+
+
+        </nav>
+
+        <section class="hero__container container">
+            <h1 class="hero__title">Reserva tu viaje a Costa rica.</h1>
+            <p class="hero__paragraph">Costa rica es el lugar que estabas buscando para relajarte y alejarte del estres.</p>
+            <a href="#" class="cta">¡Comienza ahora!</a>
+
+        </section>
+    </header>
+    <main>
+        <section class="about">
+            <h2 class="subtitle">Our Trained Staff:</h2>
+            <p class="about__paragraph">Your Partner When It Comes to Traveling</p>
+
+            <div class="about__main">
+                <article class="about__icons">
+                    <img src="./images/Conductor3.jpg" alt="" class="about__icon">
+                    <h3 class="about__title">Driver | Olman </h3>
+                    <p class="about__paragraph">"It is my pleasure to accompany you on your visit to our company. I will be happy to help you with anything you need, from giving you information about the places we will visit to helping you carry your luggage."</p>
+                </article>
+           
+                <article class="about__icons">
+                    <img src="./images/Manager.png" alt="" class="about__icon">
+                    <h3 class="about__title">Manager | Carlos Valverde</h3>
+                    <p class="about__paragraph">"Your comfort is our priority. We are here to help you reach your destination safely and comfortably, with personalized service that meets your needs and allows you to enjoy your trip".</p>
+                </article>
+
+                <article class="about__icons">
+                    <img src="./images/Marketing.jpg" alt="" class="about__icon">
+                    <h3 class="about__title">Marketing | Anthony</h3>
+                    <p class="about__paragraph">"I am honored to have the opportunity to collaborate with you. I am firmly convinced that my expertise can be instrumental in helping you achieve your marketing aspirations."</p>
+                </article>
+            
+            </div>
+            <figure>
+                <a href="#" class="cta">About us!</a>
+            </figure>
+
+        </section>
+
+        <section class="knowledge">
+            <div class="knowledge__container container"></div>
+                <div class="knowledege__texts"></div>
+                    <h2 class="subtitle1">In Costa Rica you will find your spark!</h2>
+                    <p class="knowledge__paragraph">In Costa Rica, where lush rainforests meet pristine beaches, your spirit will ignite and your adventure will unfold. Embark on a journey through this verdant land where vibrant flora and fauna create a breathtaking masterpiece. Let the rhythm of the waves caress your soul as you stroll along the sugar-white sands and feel the invigorating spray of waterfalls wash away your cares. Venture into the heart of the jungle, where exotic creatures roam free and ancient secrets whisper among the towering trees. Discover hidden trails that lead to hidden wonders and let the symphony of nature serenade your every step. Embrace the spirit of Pura Vida, where life is savored in every moment and happiness blooms like a wild flower. Come explore the kaleidoscope of Costa Rica and let your heart find its rhythm, its spark, its pura vida.</p>
+                    <a href="#" class="cta">¡Viajemos!</a>
+                 <div>
+                        <div class="knowledge__agregado">
+    
+                        <figure class="knowledge__picture">
+                            <img src="images/fotob2.png" alt="" class="knowledge__img">
+                        </figure>
+
+                        <figure class="knowledge__picture">
+                            <img src="images/fotob1.png" alt="" class="knowledge__img">
+                        </figure>
+                            
+                        </figure>
+                        </div>
+                    </div>
+        </section>
+
+        <section class="price container">
+            <h2 class="subtitle">Find yourself in natural spaces!</h2>
+
+            <div class="price__table">
+                <div class="price__element">
+                    <p class="price__name">Tour</p>
+                    <h3 class="price__price">$329.99 p/p</h3>
+
+                    <div class="price__items">
+                        <p class="price__features">National Park Experience</p>
+                        <figure class="price__table">
+                            <img src="images/fotol3.jpeg" alt="" class="price__imagee">
+                        </figure>
+                        <p class="price__features">Volcan Poás</p>
+                        <p class="price__features">Flora & Hiking</p>
+                    </div>
+
+                    <a href="#" class="price__cta">See More</a>
+                    
+                </div>
+
+                <div class="price__element price__element--best">
+                    <p class="price__name">Tour</p>
+                    <h3 class="price__price">$139.99 p/p</h3>
+
+                    <div class="price__items">
+                        <p class="price__features">National Park Experience</p>
+                        <figure class="price__table">
+                            <img src="images/fotol1.jpeg" alt="" class="price__imagee">
+                        </figure>
+                        <p class="price__features">Manuel Antonio</p>
+                        <p class="price__features">Beach & Nature</p>
+                    </div>
+
+                    <a href="#" class="price__cta">Got It</a>
+                </div>
+
+                <div class="price__element">
+                    <p class="price__name">Tour</p>
+                    <h3 class="price__price">$249.99 p/p</h3>
+
+                    <div class="price__items">
+                        <p class="price__features">National Park Experience</p>
+                        <figure class="price__table">
+                            <img src="images/fotol4.png" alt="" class="price__imagee">
+                        </figure>
+                        <p class="price__features">Volcan Arenal</p>
+                        <p class="price__features">Nature & View</p>
+                    </div>
+
+                    <a href="#" class="price__cta">See More</a>
+                </div>
+
+        </section>
+
+    </main>
+</body>
+</html>
